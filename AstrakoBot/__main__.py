@@ -98,10 +98,10 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://github.com/ping2109/ping2109.github.io/blob/main/images/New%20Project%202%20%5BBE9E2E1%5D.png?raw=true"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
+NevaBot is hosted on its own server and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="Add NevaBot to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -230,26 +230,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
                                 text="Source code",
-                                url="https://github.com/Astrako/AstrakoBot",
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="Recommended federation",
-                                url="https://t.me/ALTF4Fed",
+                                url="https://github.com/ping2109/AstrakoBot",
                             )
                         ],
                     ]
